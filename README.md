@@ -159,6 +159,16 @@ A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
 
 Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy-media)
 
+## Star History
+
+<a href="https://www.star-history.com/#lazy-media/reactive-resume&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lazy-media/reactive-resume&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=lazy-media/reactive-resume&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=lazy-media/reactive-resume&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ---
 
 ## 💖 Support My Work
