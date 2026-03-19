@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr ""
 
-#: apps/client/src/pages/home/sections/support/index.tsx:95
+#: apps/client/src/pages/home/sections/support/index.tsx:100
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr ""
 
@@ -741,7 +741,7 @@ msgstr "এই অ্যাপটি  যদি আপনাকে কাজে�
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "আপনি যদি টু-স্টেপ অথিন্টিকেশন বন্ধ করে দেন, তবে লগ ইন করার সময় আপনাকে আর যাচাইকরণ কোড প্রবেশ করাতে হবে না।"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:70
+#: apps/client/src/pages/home/sections/support/index.tsx:75
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr ""
 
