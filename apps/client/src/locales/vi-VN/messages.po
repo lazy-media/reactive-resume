@@ -5,18 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: vi\n"
+"Language: vi_VN\n"
 "Project-Id-Version: lazymedia-reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-06-16 04:47\n"
+"PO-Revision-Date: 2026-03-19 06:19\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: lazymedia-reactive-resume\n"
 "X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: vi\n"
-"X-Crowdin-File: /main/messages.po\n"
-"X-Crowdin-File-ID: 4\n"
+"X-Crowdin-File: /[lazy-media.Reactive-Resume] main/messages.po\n"
+"X-Crowdin-File-ID: 24\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
 msgid "You have enabled two-factor authentication successfully."
@@ -1720,7 +1720,7 @@ msgstr "Xác nhận địa chỉ email"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
 msgid "Version 1"
-msgstr ""
+msgstr "Phiên bản 1"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1827,3 +1827,4 @@ msgstr "Phóng to"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
+
