@@ -13,6 +13,20 @@ export const SupportSection = () => (
       </p>
 
       <div className="flex items-center gap-x-10">
+        <a href="https://btcpay.lazymedia.media" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/btcpay.png" className="max-h-[45px]" alt="BTCPay" />
+        </a>
+
+        <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img
+            src="/support-logos/buymeacoffee.svg"
+            className="max-h-[32px]"
+            alt="Buy Me a Coffee"
+          />
+        </a>
+
         <a
           href="https://github.com/sponsors/lazy-media"
           rel="noreferrer noopener nofollow"
@@ -37,23 +51,14 @@ export const SupportSection = () => (
           <img src="/support-logos/paypal.svg" className="max-h-[32px]" alt="PayPal" />
         </a>
 
-        <a href="https://venmo.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
-          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-          <img src="/support-logos/venmo.svg" className="max-h-[25px]" alt="Venmo" />
-        </a>
-
-        <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
-          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-          <img
-            src="/support-logos/buymeacoffee.svg"
-            className="max-h-[32px]"
-            alt="Buy Me a Coffee"
-          />
-        </a>
-
         <a href="https://patreon.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
           <img src="/support-logos/patreon.png" className="max-h-[42px]" alt="Patreon" />
+        </a>
+
+        <a href="https://venmo.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/venmo.svg" className="max-h-[25px]" alt="Venmo" />
         </a>
 
         <a
