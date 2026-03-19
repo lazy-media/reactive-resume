@@ -42,6 +42,11 @@ export const SupportSection = () => (
           <img src="/support-logos/venmo.svg" className="max-h-[25px]" alt="Venmo" />
         </a>
 
+        <a href="https://btcpay.lazymedia.media" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/btcpay.svg" className="max-h-[25px]" alt="BTCPay" />
+        </a>
+
         <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
           <img
