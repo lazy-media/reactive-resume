@@ -52,7 +52,7 @@
     "@nx/workspace": "^19.8.14",
     "@swc-node/register": "^1.10.9",
     "@swc/cli": "^0.4.0",
-    "@swc/core": "^1.10.12",
+    "@swc/core": "^1.11.18",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
