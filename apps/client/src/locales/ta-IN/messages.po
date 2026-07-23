@@ -5,18 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: ta\n"
-"Project-Id-Version: reactive-resume\n"
+"Language: ta_IN\n"
+"Project-Id-Version: lazymedia-reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-03 09:13\n"
+"PO-Revision-Date: 2026-07-21 02:54\n"
 "Last-Translator: \n"
 "Language-Team: Tamil\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: reactive-resume\n"
-"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Project: lazymedia-reactive-resume\n"
+"X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: ta\n"
 "X-Crowdin-File: messages.po\n"
-"X-Crowdin-File-ID: 494\n"
+"X-Crowdin-File-ID: 22\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
 msgid "You have enabled two-factor authentication successfully."
@@ -131,8 +131,7 @@ msgstr "ஏற்க்கனவே அக்கவுண்ட் உள்ள�
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:144
 msgid "An error occurred while validating the file."
-msgstr ""
-"கோப்பிணை அங்கீகரிக்கும் \n"
+msgstr "கோப்பிணை அங்கீகரிக்கும் \n"
 " போது ஒரு பிழை ஏற்பட்டது."
 
 #: apps/client/src/pages/public/error.tsx:23
@@ -247,8 +246,7 @@ msgstr "கொண்டு கட்டப்பட்டது"
 #: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
-msgstr ""
-"சமூகத்தால், சமூகத்திற்காக.\n"
+msgstr "சமூகத்தால், சமூகத்திற்காக.\n"
 "தமிழில் மொழி பெயர்ததது : திவாகர் ராமசாமி MCA மாணவன், குமரகுரு தொழில்நுட்ப கல்லூரி, கோயம்புத்தூர் -39."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
@@ -1831,3 +1829,4 @@ msgstr ""
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr ""
+
