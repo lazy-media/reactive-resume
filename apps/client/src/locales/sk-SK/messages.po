@@ -5,18 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: sk\n"
-"Project-Id-Version: reactive-resume\n"
+"Language: sk_SK\n"
+"Project-Id-Version: lazymedia-reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-03 09:13\n"
+"PO-Revision-Date: 2026-07-21 02:54\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
-"X-Crowdin-Project: reactive-resume\n"
-"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Project: lazymedia-reactive-resume\n"
+"X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: sk\n"
 "X-Crowdin-File: messages.po\n"
-"X-Crowdin-File-ID: 494\n"
+"X-Crowdin-File-ID: 22\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
 msgid "You have enabled two-factor authentication successfully."
@@ -31,18 +31,18 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {Stĺpec} other {Stĺpce}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>Reactive Resume som vytvoril väčšinou sám vo svojom voľnom čase s veľkou pomocou ďalších skvelých prispievateľov do open-source.</0><1>Ak sa vám aplikácia páči a chcete ju podporiť, aby zostala navždy bezplatná, darujte, čo si môžete dovoliť.</1>"
+msgid "<0>I resurrected Reactive Resume from the depths of an abandoned GitHub repo, fixed some of its existential crises, gave it a shiny public home, and now play full time bug whisperer all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept this project alive. You all are the real MVPs!</0><1>Love the app? Keep it free forever by tossing a coin to your dev, or at least a virtual high five via donation.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Som si istý, že aplikácia nie je dokonalá, ale chcel by som, aby bola.</0><1>Ak ste sa pri vytváraní životopisu stretli s nejakými problémami alebo máte nápad, ktorý by vám a ostatným používateľom pomohol pri jednoduchšom vytváraní životopisu, napíšte o tom do úložiska alebo mi pošlite e-mail.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:210
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Poznámka: </0>Používaním rozhrania API OpenAI beriete na vedomie a akceptujete <1>podmienky používania</1> a <2>zásady ochrany osobných údajov</2> uvedené spoločnosťou OpenAI. Upozorňujeme, že spoločnosť Reactive Resume nenesie žiadnu zodpovednosť za akékoľvek nesprávne alebo neoprávnené používanie služby a akékoľvek následky alebo zodpovednosť za ne nesie výlučne používateľ."
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
 msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
 msgstr "<0>Komunita strávila veľa času písaním dokumentácie k aplikácii Reactive Resume a som si istý, že vám pomôže začať pracovať s aplikáciou.</0><1>Je tu aj veľa príkladov, ktoré vám pomôžu začať, a funkcií, o ktorých možno neviete a ktoré by vám mohli pomôcť vytvoriť dokonalý životopis.</1>"
 
@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>Dvojfaktorové overovanie je povolené.</0> Pri každom prihlásení budete požiadaní o zadanie kódu."
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "Bezplatný nástroj na tvorbu životopisov s otvoreným zdrojovým kódom"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Bezplatný nástroj na tvorbu životopisov s otvoreným zdrojovým kódom, ktorý zjednodušuje proces vytvárania, aktualizácie a zdieľania životopisu."
 
@@ -69,13 +69,13 @@ msgstr "Bezplatný nástroj na tvorbu životopisov s otvoreným zdrojovým kódo
 msgid "A link has been copied to your clipboard."
 msgstr "Odkaz bol skopírovaný do schránky."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Vášnivý projekt <0>Amruth Pillai</0>"
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Do vašej e-mailovej schránky by malo byť odoslané prepojenie na obnovenie hesla, ak existuje konto s e-mailom, ktorý ste zadali."
+
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -217,7 +217,7 @@ msgstr "Záložný kód"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Záložné kódy môžu obsahovať len malé písmená alebo číslice a musia mať presne 10 znakov."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
 msgid "Base URL"
 msgstr "Základná adresa URL"
 
@@ -242,7 +242,7 @@ msgstr "Polomer hranice"
 msgid "Built with"
 msgstr "Postavené s"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Od komunity, pre komunitu."
@@ -300,9 +300,13 @@ msgstr "Kód musí mať presne 6 číslic."
 msgid "Columns"
 msgstr "Stĺpce"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:45
 msgid "Company"
 msgstr "Spoločnosť"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
+msgid "Company Description"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:115
 #: apps/client/src/components/ai-actions.tsx:118
@@ -313,6 +317,10 @@ msgstr "Sebavedomé"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:246
 msgid "Continue"
 msgstr "Pokračovať"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
+msgid "Contract"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -346,7 +354,7 @@ msgstr "Vytvorenie novej položky"
 msgid "Create a new resume"
 msgstr "Vytvorenie nového životopisu"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Vytvorte si ho teraz"
@@ -374,12 +382,12 @@ msgid "Custom Section"
 msgstr "Vlastná sekcia"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "Prispôsobiteľné palety farieb"
+msgid "Customizable color palettes"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "Prispôsobiteľné rozloženia"
+msgid "Customizable layouts"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -395,9 +403,9 @@ msgstr "Dark"
 msgid "Date"
 msgstr "Dátum"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:87
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:72
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -416,11 +424,11 @@ msgstr "Odstrániť"
 msgid "Delete Account"
 msgstr "Odstrániť účet"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:73
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:50
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:53
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:84
 msgid "Description"
 msgstr "Popis"
 
@@ -443,15 +451,15 @@ msgstr "Zakázanie funkcie 2FA"
 msgid "Discard"
 msgstr "Vyradiť"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:105
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:108
 msgid "Documentation"
 msgstr "Dokumentácia"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "Nemáte účet?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:86
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "Neviete, kde začať? Prejdite na dokumenty!"
 
@@ -459,7 +467,7 @@ msgstr "Neviete, kde začať? Prejdite na dokumenty!"
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "Nevidíte svoj jazyk? <0>Pomôžte preložiť aplikáciu.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:40
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:43
 msgid "Donate to Reactive Resume"
 msgstr "Darujte Reaktívny životopis"
 
@@ -504,7 +512,7 @@ msgid "Effects"
 msgstr "Účinky"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -547,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Chyby"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
+#: apps/client/src/pages/home/sections/support/index.tsx:100
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Aj keď nie ste v pozícii, aby ste mohli finančne prispieť, stále môžete prispieť tým, že dáte úložisku GitHub hviezdičku, rozšírite túto informáciu medzi svojich priateľov alebo mi napíšete krátku správu, aby som vedel, ako vám Reactive Resume pomohol. Vaša spätná väzba a podpora sú vždy vítané a veľmi si ich cením!"
 
@@ -569,7 +577,7 @@ msgstr "Súbor"
 msgid "Filetype"
 msgstr "Typ súboru"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "Nakoniec,"
 
@@ -597,11 +605,11 @@ msgstr "Varianty písma"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Tu si môžete zapísať napríklad informácie o tom, ktorým spoločnostiam ste poslali tento životopis, alebo odkazy na opisy pracovných miest."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Forget"
 msgstr "Zabudnite na"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "Zabudli ste heslo?"
 
@@ -614,7 +622,7 @@ msgstr "Zabudli ste heslo?"
 msgid "Format"
 msgstr "Formát"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:49
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:52
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "Našli ste chybu alebo máte nápad na novú funkciu?"
 
@@ -630,6 +638,10 @@ msgstr "Friendly"
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:31
 msgid "Full Name"
 msgstr "Celé meno"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
+msgid "Full-time"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
@@ -668,7 +680,7 @@ msgstr "Google"
 msgid "Grayscale"
 msgstr "Odtiene sivej"
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
 msgstr "Sieť"
 
@@ -685,7 +697,7 @@ msgid "Here, you can update your profile to customize and personalize your exper
 msgstr "Tu môžete aktualizovať svoj profil a prispôsobiť si ho."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:180
 msgid "Hidden"
 msgstr "Skryté"
@@ -698,7 +710,7 @@ msgstr "Skryť"
 msgid "Hide Icons"
 msgstr "Skryť ikony"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -713,8 +725,8 @@ msgid "Host your resume publicly"
 msgstr "Zverejnite svoj životopis"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "Vždy sa rád dozviem spätnú väzbu alebo podporu od používateľov aplikácie Reactive Resume. Tu sú niektoré zo správ, ktoré som dostal. Ak máte nejakú spätnú väzbu, neváhajte mi napísať na e-mailovú adresu <0>{email}</0>."
+msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop an email at <0>{email}</0>."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -729,7 +741,7 @@ msgstr "Ak vám táto aplikácia pomohla pri hľadaní práce, dajte mi vedieť 
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Ak vypnete dvojfaktorové overovanie, pri prihlasovaní sa už nebude vyžadovať zadanie overovacieho kódu."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
+#: apps/client/src/pages/home/sections/support/index.tsx:75
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Ak hovoríte viacerými jazykmi, budeme radi, ak nám pomôžete rozšíriť aplikáciu do viacerých jazykov a komunít. Ak svoj jazyk na zozname nevidíte, nebojte sa - stačí, ak mi dáte vedieť na GitHube, a ja sa postarám o jeho zaradenie. Ste pripravení začať? Vstúpte do prekladu na stránke Crowdin kliknutím na odkaz nižšie."
 
@@ -760,14 +772,18 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "V tejto časti môžete vymazať svoje konto a všetky údaje priradené k používateľovi, ale nezabudnite, že <0>táto akcia je nezvratná</0>."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:116
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:119
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 msgid "Information"
 msgstr "Informácie"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
 msgstr "Inštitúcia"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
+msgid "Internship"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -820,10 +836,10 @@ msgstr "john.doe@example.com"
 msgid "JSON"
 msgstr "JSON"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:159
-#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:181
+#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:84
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:159
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:109
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:130
 msgid "Keywords"
 msgstr "Kľúčové slová"
 
@@ -856,11 +872,11 @@ msgid "Letter"
 msgstr "List"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:64
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:77
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:98
 msgid "Level"
 msgstr "Úroveň"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Licencia <0>MIT</0>"
 
@@ -881,12 +897,12 @@ msgstr "Výška riadku"
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, JSON Resume atď."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+#: apps/client/src/pages/dashboard/resumes/page.tsx:70
 msgid "List"
 msgstr "Zoznam"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:101
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:117
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -932,7 +948,7 @@ msgid "March 2023"
 msgstr "marec 2023"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:74
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -942,7 +958,7 @@ msgstr "marec 2023 - súčasnosť"
 msgid "Margin"
 msgstr "Marža"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:167
 msgid "Max Tokens"
 msgstr "Maximálny počet žetónov"
 
@@ -950,18 +966,22 @@ msgstr "Maximálny počet žetónov"
 msgid "MIT License"
 msgstr "Licencia MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr "Model"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
+msgid "N/A"
+msgstr ""
+
 #: apps/client/src/pages/auth/register/page.tsx:98
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:59
-#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:48
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
+#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:73
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:49
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:70
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
@@ -1029,13 +1049,13 @@ msgstr "Aplikácia OpenAI nevrátila žiadne možnosti pre váš text."
 msgid "OpenAI Integration"
 msgstr "Integrácia OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
-msgid "OpenAI/Ollama API Key"
-msgstr "Kľúč API OpenAI/Ollama"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
+msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
-msgid "OpenAI/Ollama Integration"
-msgstr "Integrácia OpenAI/Ollama"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
+msgid "OpenAI/OpenWebUI Integration"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1061,7 +1081,11 @@ msgstr "Strana"
 msgid "Page {pageNumber}"
 msgstr "Strana {pageNumber}"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
+msgid "Part-time"
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1109,7 +1133,7 @@ msgstr "Záložné kódy uložte na bezpečnom mieste. Jeden z týchto jednorazo
 msgid "Portrait"
 msgstr "Portrét"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:54
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:85
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr "Pozícia"
@@ -1130,7 +1154,7 @@ msgstr "Poháňané <0>jednoduchými ikonami</0>"
 msgid "Primary Color"
 msgstr "Primárna farba"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Zásady ochrany osobných údajov"
 
@@ -1151,20 +1175,20 @@ msgstr "Verejnosť"
 msgid "Publisher"
 msgstr "Vydavateľ"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:72
 msgid "Raise an issue"
 msgstr "Upozorniť na problém"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/page.tsx:24
@@ -1178,8 +1202,8 @@ msgid "Reactive Resume has helped people land jobs at these great companies:"
 msgstr "Reactive Resume pomohol ľuďom získať prácu v týchto skvelých spoločnostiach:"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume je bezplatný projekt s otvoreným zdrojovým kódom, ktorý som vytvoril najmä ja, a veľmi si cením vašu podporu. Ak máte chuť prispieť, a to len vtedy, ak si to môžete dovoliť, zvážte možnosť prispieť prostredníctvom niektorej z uvedených platforiem. Okrem toho sú dary pre Reactive Resume prostredníctvom Open Collective oslobodené od daní, keďže projekt fiškálne zastrešuje Open Collective Europe."
+msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
@@ -1231,8 +1255,8 @@ msgid "Reset Zoom"
 msgstr "Obnovenie priblíženia"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/resumes/page.tsx:37
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
+#: apps/client/src/pages/dashboard/resumes/page.tsx:60
 msgid "Resumes"
 msgstr "Životopisy"
 
@@ -1255,11 +1279,11 @@ msgstr "Zaoblené"
 msgid "Save Changes"
 msgstr "Uloženie zmien"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Save Locally"
 msgstr "Uložiť lokálne"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Saved"
 msgstr "Uložené"
 
@@ -1304,6 +1328,10 @@ msgstr "Zabezpečenie pomocou dvojfaktorového overovania"
 msgid "Security"
 msgstr "Zabezpečenie"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
+msgid "Select Type of Employment"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
 msgstr "Vlastný hostiteľ pomocou nástroja Docker"
@@ -1312,7 +1340,7 @@ msgstr "Vlastný hostiteľ pomocou nástroja Docker"
 msgid "Send Email"
 msgstr "Odoslať e-mail"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:77
 msgid "Send me a message"
 msgstr "Pošlite mi správu"
 
@@ -1354,7 +1382,7 @@ msgid "Sidebar"
 msgstr "Bočný panel"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "Prihlásiť sa"
@@ -1363,8 +1391,8 @@ msgstr "Prihlásiť sa"
 msgid "Sign in now"
 msgstr "Prihláste sa teraz"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "Prihláste sa do svojho konta"
 
@@ -1384,7 +1412,7 @@ msgstr "Prihlásenie pomocou služby Google"
 msgid "Sign up"
 msgstr "Zaregistrujte sa"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "Prihlasovanie prostredníctvom e-mailu je v súčasnosti správcom zakázané."
 
@@ -1442,9 +1470,9 @@ msgstr "Bezpečné ukladanie záložných kódov"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:129
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:114
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:174
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1463,6 +1491,18 @@ msgstr "Podporný reaktívny životopis"
 #: apps/client/src/pages/home/sections/features/index.tsx:65
 msgid "Supports A4/Letter page formats"
 msgstr "Podporuje formáty strán A4/Letter"
+
+#: apps/client/src/components/locale-switch.tsx:17
+msgid "Switch Language"
+msgstr ""
+
+#: apps/client/src/components/theme-switch.tsx:31
+msgid "Switch to Dark Mode"
+msgstr ""
+
+#: apps/client/src/components/theme-switch.tsx:29
+msgid "Switch to Light Mode"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:85
 msgid "System"
@@ -1572,6 +1612,10 @@ msgstr "Pre toto konto nie je povolené dvojfaktorové overovanie."
 msgid "Type <0>delete</0> to confirm deleting your account."
 msgstr "Zadaním príkazu <0>delete</0> potvrďte vymazanie svojho konta."
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
+msgid "Type of Employment"
+msgstr ""
+
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
 msgid "Type of Study"
@@ -1626,6 +1670,10 @@ msgstr "ADRESA URL"
 msgid "URL must start with https://"
 msgstr "Adresa URL musí začínať https://"
 
+#: apps/client/src/components/theme-switch.tsx:30
+msgid "Use System Theme"
+msgstr ""
+
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/backup-otp/page.tsx:57
 msgid "Use your backup code"
@@ -1671,8 +1719,8 @@ msgid "Verify your email address"
 msgstr "Overenie vašej e-mailovej adresy"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Verzia 4"
+msgid "Version 1"
+msgstr "Verzia 1"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1692,9 +1740,9 @@ msgstr "Vašu e-mailovú adresu overujeme len preto, aby sme vám mohli poslať 
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:115
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:160
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
@@ -1704,7 +1752,7 @@ msgstr "Vašu e-mailovú adresu overujeme len preto, aby sme vám mohli poslať 
 msgid "Website"
 msgstr "Webová lokalita"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr "Novinky v najnovšej verzii"
 
@@ -1712,22 +1760,22 @@ msgstr "Novinky v najnovšej verzii"
 msgid "You are not authorized to access this page."
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:164
-#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:186
+#: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:89
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:164
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:114
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:135
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Môžete pridať viacero kľúčových slov tak, že ich oddelíte čiarkou alebo stlačíte kláves enter."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "Môžete tiež zadať svoje používateľské meno."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
-msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr "Môžete sa tiež integrovať s Ollama jednoducho nastavením kľúča API na `sk-1234567890abcdef` a základnej adresy URL na vašu adresu URL Ollama, t. j. `http://localhost:11434/v1`. Môžete si tiež vybrať modely a nastaviť maximálne tokeny podľa svojich preferencií."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
+msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "Rozhranie API OpenAI môžete využiť na pomoc pri vytváraní obsahu alebo na zlepšenie písania pri písaní životopisu."
 
@@ -1739,7 +1787,7 @@ msgstr "Ak povolíte verejné zdieľanie, môžete sledovať počet zobrazení v
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "Máte možnosť <0>získať vlastný kľúč API od OpenAI</0>. Tento kľúč vám umožňuje využívať API podľa vlastného uváženia. Prípadne, ak chcete funkcie umelej inteligencie v Reactive Resume úplne vypnúť, môžete jednoducho odstrániť kľúč z nastavení."
 
@@ -1756,7 +1804,7 @@ msgstr "Máte poštu!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Vaše konto a všetky vaše údaje boli úspešne odstránené. Zbohom!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:200
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Váš kľúč API je bezpečne uložený v miestnom úložisku prehliadača a používa sa len pri zadávaní požiadaviek na OpenAI prostredníctvom ich oficiálneho SDK. Môžete si byť istí, že váš kľúč sa neprenáša na žiadny externý server okrem prípadov, keď komunikujete so službami OpenAI."
 

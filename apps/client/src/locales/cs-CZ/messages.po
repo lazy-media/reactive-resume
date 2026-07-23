@@ -5,18 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: cs\n"
+"Language: cs_CZ\n"
 "Project-Id-Version: lazymedia-reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-06-16 04:46\n"
+"PO-Revision-Date: 2026-07-21 02:53\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
 "X-Crowdin-Project: lazymedia-reactive-resume\n"
 "X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: cs\n"
-"X-Crowdin-File: /main/messages.po\n"
-"X-Crowdin-File-ID: 4\n"
+"X-Crowdin-File: messages.po\n"
+"X-Crowdin-File-ID: 22\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
 msgid "You have enabled two-factor authentication successfully."
@@ -32,7 +32,7 @@ msgstr "{value, plural, one {Sloupec} few {Sloupce} many {Sloupce} other {Sloupc
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
 msgid "<0>I resurrected Reactive Resume from the depths of an abandoned GitHub repo, fixed some of its existential crises, gave it a shiny public home, and now play full time bug whisperer all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept this project alive. You all are the real MVPs!</0><1>Love the app? Keep it free forever by tossing a coin to your dev, or at least a virtual high five via donation.</1>"
-msgstr ""
+msgstr "<0>Obnovil jsem reaktivní obnovu z hlubin opuštěného repo GitHubu, napravil jsem některé z jeho existenčních krizí, dal jí lesklý veřejný dům a nyní si zahrát celou dobu chybového šeptavače s plným časem, zatímco jemně pohlcuje komunitu na možné, jen možná pomozte ven. Obrovské díky open-source legendám, které udržely tento projekt naživu. Všichni jste skutečnými MVP! /0><1>Lábí se vám aplikace? Ponechte ji navždy zdarma tím, že pošlete minci svému devovi nebo alespoň virtuálně vysoké pět darováním. /1>"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
@@ -75,7 +75,7 @@ msgstr "Do vaší e-mailové schránky by měl být zaslán odkaz na obnovení h
 
 #: apps/client/src/components/copyright.tsx:30
 msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
-msgstr ""
+msgstr "Projekt nadšeně přijatý <0>Lazy Media</0> <1>(protože někdo... barely)</1>."
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -87,7 +87,7 @@ msgstr "Uživatel s touto e-mailovou adresou a/nebo uživatelským jménem již 
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:43
 msgid "A4"
-msgstr ""
+msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
@@ -123,7 +123,7 @@ msgstr "Přidat novou stránku"
 
 #: apps/client/src/components/ai-actions.tsx:79
 msgid "AI"
-msgstr ""
+msgstr "AI"
 
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
@@ -135,11 +135,11 @@ msgstr "Při nahrávání souboru došlo k chybě."
 
 #: apps/client/src/pages/public/error.tsx:23
 msgid "An internal server error occurred."
-msgstr ""
+msgstr "Došlo k vnitřní chybě serveru."
 
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
-msgstr ""
+msgstr "Došlo k neočekávané chybě."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:134
 msgid "and many more..."
@@ -306,7 +306,7 @@ msgstr "Společnost"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
 msgid "Company Description"
-msgstr ""
+msgstr "Popis společnosti"
 
 #: apps/client/src/components/ai-actions.tsx:115
 #: apps/client/src/components/ai-actions.tsx:118
@@ -320,7 +320,7 @@ msgstr "Pokračovat"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
 msgid "Contract"
-msgstr ""
+msgstr "Smlouva"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -365,7 +365,7 @@ msgstr "Vytvořit ukázkový životopis"
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
-msgstr ""
+msgstr "Aktuální heslo"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:93
 #: apps/client/src/pages/builder/sidebars/right/sections/css.tsx:27
@@ -383,11 +383,11 @@ msgstr "Vlastní sekce"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
 msgid "Customizable color palettes"
-msgstr ""
+msgstr "Přizpůsobitelné palety barev"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
 msgid "Customizable layouts"
-msgstr ""
+msgstr "Přizpůsobitelné rozložení"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -549,7 +549,7 @@ msgstr "Zadejte svou e-mailovou adresu a my vám pošleme odkaz pro obnovení he
 
 #: apps/client/src/pages/public/error.tsx:46
 msgid "Error {statusCode}"
-msgstr ""
+msgstr "Chyba {statusCode}"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:283
 msgid "Errors"
@@ -583,7 +583,7 @@ msgstr "Konečně"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
-msgstr ""
+msgstr "Fix Spelling & Grammar"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:107
 msgid "Font Family"
@@ -591,7 +591,7 @@ msgstr "Rodina písma"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:148
 msgid "Font Size"
-msgstr ""
+msgstr "Font Size"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:122
 msgid "Font Subset"
@@ -599,7 +599,7 @@ msgstr "Podmnožina písma"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:134
 msgid "Font Variants"
-msgstr ""
+msgstr "Font Variants"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:35
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
@@ -641,7 +641,7 @@ msgstr "Celé jméno"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
 msgid "Full-time"
-msgstr ""
+msgstr "Plný pracovní úvazek"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
@@ -653,11 +653,11 @@ msgstr "Začněte"
 
 #: apps/client/src/pages/auth/_components/social-auth.tsx:18
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
 msgid "GitHub Stars"
-msgstr ""
+msgstr "GitHub Stars"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:187
 msgid "Give your old resume a new name."
@@ -670,15 +670,15 @@ msgstr "Přejít na nástěnku"
 
 #: apps/client/src/pages/public/error.tsx:55
 msgid "Go to home"
-msgstr ""
+msgstr "Přejít na domov"
 
 #: apps/client/src/pages/auth/_components/social-auth.tsx:31
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
-msgstr ""
+msgstr "Grayscale"
 
 #: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
@@ -700,7 +700,7 @@ msgstr "Zde můžete aktualizovat svůj profil, abyste si mohli přizpůsobit a 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:180
 msgid "Hidden"
-msgstr ""
+msgstr "Hidden"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:106
 msgid "Hide"
@@ -726,7 +726,7 @@ msgstr "Hostujte váš obnovený účet veřejně"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
 msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop an email at <0>{email}</0>."
-msgstr ""
+msgstr "Vždy rád slyším od uživatelů Reactive Resume se zpětnou vazbou nebo podporou. Zde jsou některé zprávy, které byly doručeny od předchozího vlastníka. Pokud máte nějakou zpětnou vazbu, neváhejte upustit od e-mailu na <0>{email}</0>."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -783,7 +783,7 @@ msgstr "Instituce"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
 msgid "Internship"
-msgstr ""
+msgstr "Stáže"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -825,16 +825,16 @@ msgstr "Jan Novák"
 #: apps/client/src/pages/auth/register/page.tsx:123
 msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
 msgid "john.doe"
-msgstr ""
+msgstr "john.doe"
 
 #: apps/client/src/pages/auth/register/page.tsx:145
 msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
 msgid "john.doe@example.com"
-msgstr ""
+msgstr "john.doe@example.com"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:181
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:84
@@ -968,11 +968,11 @@ msgstr "MIT licence"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
-msgstr ""
+msgstr "Vzor"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
 msgid "N/A"
-msgstr ""
+msgstr "Nepřichází v úvahu"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
@@ -1037,7 +1037,7 @@ msgstr "Otevřít"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:47
 msgid "Open Source"
-msgstr ""
+msgstr "Open Source"
 
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
@@ -1051,11 +1051,11 @@ msgstr "OpenAI integrace"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
 msgid "OpenAI/OpenWebUI API Key"
-msgstr ""
+msgstr "OpenAI/OpenWebUI API klíč"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
 msgid "OpenAI/OpenWebUI Integration"
-msgstr ""
+msgstr "OpenAI/OpenWebUI integrace"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1083,7 +1083,7 @@ msgstr "Stránka {pageNumber}"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
 msgid "Part-time"
-msgstr ""
+msgstr "Částečný pracovní úvazek"
 
 #: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
@@ -1094,7 +1094,7 @@ msgstr "Heslo"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:72
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:63
 msgid "Personal notes for each resume"
@@ -1203,7 +1203,7 @@ msgstr "Reactive Resume pomáhal lidem při práci v těchto skvělých společn
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
 msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
-msgstr ""
+msgstr "Reactive Resume je bezplatný a open-source projekt. Tvoje podpora by byla velmi ceněna. Pokud máte sklon přispět, a pouze pokud si to můžete dovolit, zvažte poskytnutí daru prostřednictvím některé z uvedených platforem."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
@@ -1239,7 +1239,7 @@ msgstr "Znovu odeslat odkaz pro potvrzení e-mailu"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:152
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:201
 msgid "Reset Layout"
@@ -1252,7 +1252,7 @@ msgstr "Resetovat heslo"
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:124
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Reset Zoom"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
 #: apps/client/src/pages/dashboard/resumes/page.tsx:38
@@ -1330,7 +1330,7 @@ msgstr "Zabezpečení"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
 msgid "Select Type of Employment"
-msgstr ""
+msgstr "Vyberte typ zaměstnání"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
@@ -1379,7 +1379,7 @@ msgstr "Zobrazit čísla stránky"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:248
 msgid "Sidebar"
-msgstr ""
+msgstr "Sidebar"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
 #: apps/client/src/pages/auth/login/page.tsx:151
@@ -1478,7 +1478,7 @@ msgstr "Vaše záložní kódy bezpečně uložte"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:109
 msgid "Summary"
-msgstr ""
+msgstr "Summary"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:18
 msgid "Support the app by donating what you can!"
@@ -1494,15 +1494,15 @@ msgstr "Podporuje A4/Letter formáty stránky"
 
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Switch Language"
-msgstr ""
+msgstr "Přepnout jazyk"
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
-msgstr ""
+msgstr "Přepnout do tmavého režimu"
 
 #: apps/client/src/components/theme-switch.tsx:29
 msgid "Switch to Light Mode"
-msgstr ""
+msgstr "Přepnout do světlého režimu"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:85
 msgid "System"
@@ -1528,11 +1528,11 @@ msgstr "Barva textu"
 
 #: apps/client/src/pages/public/error.tsx:17
 msgid "The page you're looking for doesn't exist."
-msgstr ""
+msgstr "Stránka, kterou hledáte, neexistuje."
 
 #: apps/client/src/pages/public/error.tsx:29
 msgid "The request was invalid."
-msgstr ""
+msgstr "Požadavek byl neplatný."
 
 #: apps/client/src/services/errors/translate-error.ts:49
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
@@ -1614,7 +1614,7 @@ msgstr "Zadejte <0>Odstranění</0> pro potvrzení odstranění vašeho účtu."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
 msgid "Type of Employment"
-msgstr ""
+msgstr "Typ zaměstnání"
 
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
@@ -1664,7 +1664,7 @@ msgstr "Nahrajte soubor z jednoho z přijatých zdrojů pro analyzování existu
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:61
 msgid "URL must start with https://"
@@ -1672,7 +1672,7 @@ msgstr "Adresa URL musí začínat https://://"
 
 #: apps/client/src/components/theme-switch.tsx:30
 msgid "Use System Theme"
-msgstr ""
+msgstr "Použít systémový motiv"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/backup-otp/page.tsx:57
@@ -1695,7 +1695,7 @@ msgstr "Zaregistrovaní uživatelé"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:296
 msgid "Validate"
-msgstr ""
+msgstr "Validate"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:314
 msgid "Validated"
@@ -1720,7 +1720,7 @@ msgstr "Ověřte svou e-mailovou adresu"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
 msgid "Version 1"
-msgstr ""
+msgstr "Verze 1"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1758,7 +1758,7 @@ msgstr "Co je nového v nejnovější verzi"
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
-msgstr ""
+msgstr "Nemáte oprávnění k přístupu na tuto stránku."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:186
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:89
@@ -1773,7 +1773,7 @@ msgstr "Můžete také zadat své uživatelské jméno."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
 msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
-msgstr ""
+msgstr "Můžete také integrovat s OpenWebUI nastavením vašeho API klíče. 1) Přihlaste se k místní instanci OpenWebUI. 2) Klikněte na jméno v levém dolním rohu. 3) Klikněte na Nastavení. 4) Klikněte na Účet 5) Ukázat a kopírovat API klíč. Mělo by to vypadat jako `sk-1234567890abcdef`. Vyplňte základní adresu URL do vaší instance OpenWebUI (např. `https://localhost:8080/api`). <0>Toto se musí připojit přes HTTPS a OpenWebUI, ne k Ollamě. /0>Můžete také vybrat a vybrat modely (např. `llama3.2:latest`) a nastavit maximální tokeny podle vaší předvolby."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
@@ -1785,7 +1785,7 @@ msgstr "Můžete sledovat počet zobrazení, která jste obnovili, nebo kolik li
 
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
-msgstr ""
+msgstr "Nemáte oprávnění pro přístup k této stránce."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
@@ -1827,3 +1827,4 @@ msgstr "Přiblížit"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Oddálit"
+

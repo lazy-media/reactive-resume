@@ -5,18 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: fi\n"
+"Language: fi_FI\n"
 "Project-Id-Version: lazymedia-reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-06-16 04:46\n"
+"PO-Revision-Date: 2026-07-21 02:54\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: lazymedia-reactive-resume\n"
 "X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: fi\n"
-"X-Crowdin-File: /main/messages.po\n"
-"X-Crowdin-File-ID: 4\n"
+"X-Crowdin-File: messages.po\n"
+"X-Crowdin-File-ID: 22\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
 msgid "You have enabled two-factor authentication successfully."
@@ -32,7 +32,7 @@ msgstr "{value, plural, one {Sarake} other {Sarakkeet}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
 msgid "<0>I resurrected Reactive Resume from the depths of an abandoned GitHub repo, fixed some of its existential crises, gave it a shiny public home, and now play full time bug whisperer all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept this project alive. You all are the real MVPs!</0><1>Love the app? Keep it free forever by tossing a coin to your dev, or at least a virtual high five via donation.</1>"
-msgstr ""
+msgstr "<0>Olen herättänyt reaktiivinen Jatka hylätyn GitHub repon syvyyksistä, korjasi joitakin sen eksistentiaalisista kriiseistä, antoi sille kiiltävän julkisen kodin, ja nyt pelata koko ajan bug kuiskaa kaikki samalla varovasti nudging yhteisön ehkä, ehkä auttaa. Valtava kiitos avoimen lähdekoodin legendoja, jotka pitivät tämän projektin elossa. Te kaikki olette oikeita MVP:itä! /0><1>Pidätkö sovelluksesta? Säilytä se ikuisesti ilmaiseksi heittämällä kolikko dev:lle, tai ainakin virtuaalisesti korkealla viisi lahjoituksen kautta. /1>"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
@@ -75,7 +75,7 @@ msgstr "Salasanan palautuslinkin pitäisi olla lähetetty sähköpostiisi, jos t
 
 #: apps/client/src/components/copyright.tsx:30
 msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
-msgstr ""
+msgstr "Armollisesti toteutettu projekti <0>Lazy Media</0> <1>(koska joku oli... barely)</1>."
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -87,7 +87,7 @@ msgstr "Käyttäjä tällä sähköpostiosoitteella ja/tai käyttäjänimellä o
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:43
 msgid "A4"
-msgstr ""
+msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
@@ -123,7 +123,7 @@ msgstr "Lisää uusi sivu"
 
 #: apps/client/src/components/ai-actions.tsx:79
 msgid "AI"
-msgstr ""
+msgstr "AI"
 
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
@@ -135,11 +135,11 @@ msgstr "Virhe tapahtui tiedoston validoinnissa."
 
 #: apps/client/src/pages/public/error.tsx:23
 msgid "An internal server error occurred."
-msgstr ""
+msgstr "Tapahtui sisäinen palvelinvirhe."
 
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
-msgstr ""
+msgstr "Odottamaton virhe tapahtui."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:134
 msgid "and many more..."
@@ -306,7 +306,7 @@ msgstr "Yritys"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
 msgid "Company Description"
-msgstr ""
+msgstr "Yrityksen Kuvaus"
 
 #: apps/client/src/components/ai-actions.tsx:115
 #: apps/client/src/components/ai-actions.tsx:118
@@ -320,7 +320,7 @@ msgstr "Jatka"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
 msgid "Contract"
-msgstr ""
+msgstr "Sopimus"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -365,7 +365,7 @@ msgstr "Luo esimerkki ansioluettelosta"
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
-msgstr ""
+msgstr "Nykyinen Salasana"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:93
 #: apps/client/src/pages/builder/sidebars/right/sections/css.tsx:27
@@ -383,11 +383,11 @@ msgstr "Mukautettu osio"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
 msgid "Customizable color palettes"
-msgstr ""
+msgstr "Muokattavat väripaletit"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
 msgid "Customizable layouts"
-msgstr ""
+msgstr "Mukautettavat asettelut"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -549,7 +549,7 @@ msgstr "Syötä sähköpostiosoitteesi, niin lähetämme sinulle linkin salasana
 
 #: apps/client/src/pages/public/error.tsx:46
 msgid "Error {statusCode}"
-msgstr ""
+msgstr "Virhe {statusCode}"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:283
 msgid "Errors"
@@ -641,7 +641,7 @@ msgstr "Koko nimi"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
 msgid "Full-time"
-msgstr ""
+msgstr "Kokopäiväinen"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
@@ -653,7 +653,7 @@ msgstr "Aloita"
 
 #: apps/client/src/pages/auth/_components/social-auth.tsx:18
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
 msgid "GitHub Stars"
@@ -670,11 +670,11 @@ msgstr "Siirry hallintapaneeliin"
 
 #: apps/client/src/pages/public/error.tsx:55
 msgid "Go to home"
-msgstr ""
+msgstr "Siirry kotiin"
 
 #: apps/client/src/pages/auth/_components/social-auth.tsx:31
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
@@ -726,7 +726,7 @@ msgstr "Julkaise ansioluettelosi julkisesti"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
 msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop an email at <0>{email}</0>."
-msgstr ""
+msgstr "Olen aina mielelläni kuulla käyttäjiltä Reactive Jatka palautetta tai tukea. Tässä muutamia viestejä, jotka on saatu edelliseltä omistajalta. Jos sinulla on palautetta, voit pudottaa sähköpostin osoitteeseen <0>{email}</0>."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -783,7 +783,7 @@ msgstr "Oppilaitos"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
 msgid "Internship"
-msgstr ""
+msgstr "Työharjoittelu"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -834,7 +834,7 @@ msgstr "matti.meikäläinen@example.com"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:181
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:84
@@ -972,7 +972,7 @@ msgstr "Malli"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
 msgid "N/A"
-msgstr ""
+msgstr "E/A"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
@@ -1051,11 +1051,11 @@ msgstr "OpenAI-integrointi"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
 msgid "OpenAI/OpenWebUI API Key"
-msgstr ""
+msgstr "OpenAI/OpenWebUI API-avain"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
 msgid "OpenAI/OpenWebUI Integration"
-msgstr ""
+msgstr "OpenAI/OpenWebUI Integraatio"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1083,7 +1083,7 @@ msgstr "Sivu {pageNumber}"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
 msgid "Part-time"
-msgstr ""
+msgstr "Osa-aikainen"
 
 #: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
@@ -1094,7 +1094,7 @@ msgstr "Salasana"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:72
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:63
 msgid "Personal notes for each resume"
@@ -1148,11 +1148,11 @@ msgstr "Voimanlähteenä"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
-msgstr ""
+msgstr "Powered by <0>Yksinkertaiset kuvakkeet</0>"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:43
 msgid "Primary Color"
-msgstr ""
+msgstr "Ensisijainen Väri"
 
 #: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
@@ -1161,7 +1161,7 @@ msgstr "Tietosuojakäytäntö"
 #: apps/client/src/components/ai-actions.tsx:109
 #: apps/client/src/components/ai-actions.tsx:112
 msgid "Professional"
-msgstr ""
+msgstr "Ammatillinen"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:66
 msgid "Profile"
@@ -1203,7 +1203,7 @@ msgstr "Reaktiivinen ansioluettelo on auttanut ihmisiä työllistymään näihin
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
 msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
-msgstr ""
+msgstr "Reaktiivinen jatkaminen on ilmainen ja avoimen lähdekoodin projekti. Tukestasi arvostetaan suuresti. Jos olet taipuvainen osallistumaan, ja vain jos sinulla on varaa harkita lahjoituksen kautta jonkin listatuista alustoista."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
@@ -1330,7 +1330,7 @@ msgstr "Turvallisuus"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
 msgid "Select Type of Employment"
-msgstr ""
+msgstr "Valitse Työn tyyppi"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
@@ -1494,15 +1494,15 @@ msgstr "Tukee A4/Kirje-sivuformaatteja"
 
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Switch Language"
-msgstr ""
+msgstr "Vaihda Kieli"
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
-msgstr ""
+msgstr "Vaihda tummaan tilaan"
 
 #: apps/client/src/components/theme-switch.tsx:29
 msgid "Switch to Light Mode"
-msgstr ""
+msgstr "Vaihda valotilaan"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:85
 msgid "System"
@@ -1528,11 +1528,11 @@ msgstr "Tekstin väri"
 
 #: apps/client/src/pages/public/error.tsx:17
 msgid "The page you're looking for doesn't exist."
-msgstr ""
+msgstr "Sivua, jota etsit ei ole olemassa."
 
 #: apps/client/src/pages/public/error.tsx:29
 msgid "The request was invalid."
-msgstr ""
+msgstr "Pyyntö oli virheellinen."
 
 #: apps/client/src/services/errors/translate-error.ts:49
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
@@ -1614,7 +1614,7 @@ msgstr "Kirjoita <0>poista</0> vahvistaaksesi tilisi poiston."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
 msgid "Type of Employment"
-msgstr ""
+msgstr "Työn laji"
 
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
@@ -1664,7 +1664,7 @@ msgstr "Lataa tiedosto yhdestä hyväksytystä lähteestä analysoidaksesi olema
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
-msgstr ""
+msgstr "URL-osoite"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:61
 msgid "URL must start with https://"
@@ -1672,7 +1672,7 @@ msgstr "URL:n on käynnistyttävä https://-merkillä"
 
 #: apps/client/src/components/theme-switch.tsx:30
 msgid "Use System Theme"
-msgstr ""
+msgstr "Käytä Järjestelmäteemaa"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/backup-otp/page.tsx:57
@@ -1720,7 +1720,7 @@ msgstr "Varmista sähköpostiosoitteesi"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
 msgid "Version 1"
-msgstr ""
+msgstr "Versio 1"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1758,7 +1758,7 @@ msgstr "Mitä uutta viimeisimmässä versiossa"
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
-msgstr ""
+msgstr "Sinulla ei ole oikeutta käyttää tätä sivua."
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:186
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:89
@@ -1773,7 +1773,7 @@ msgstr "Voit myös syöttää käyttäjänimesi."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
 msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
-msgstr ""
+msgstr "Voit myös integroida OpenWebUI:n kanssa asettamalla API-avaimen. 1) Kirjaudu paikalliseen OpenWebUI instanssiin . 2) Klikkaa nimeä vasemmassa alakulmassa . 3) Napsauta Asetuksia. 4) Klikkaa tiliä. 5) Näytä ja kopioi API-avain. Sen pitäisi näyttää jotain `sk-1234567890abcdef`. Täytä Base URL OpenWebUI Instanceisi (eli `https://localhost:8080/api`). <0>Tämän täytyy muodostaa yhteys HTTPS:n ja OpenWebUI:n kautta, ei Ollamalle. /0>Voit myös valita malleja (esim. `llama3.2:latest`) ja asettaa maksimikuponkeja haluamasi mukaan."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
@@ -1785,7 +1785,7 @@ msgstr "Voit seurata, kuinka monta katselukertaa ansioluettelosi on saanut tai k
 
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
-msgstr ""
+msgstr "Sinulla ei ole oikeuksia käyttää tätä sivua."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
@@ -1827,3 +1827,4 @@ msgstr "Lähennä"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Loitonna"
+
