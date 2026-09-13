@@ -21,6 +21,7 @@ export const useFeatureFlags = () => {
     initialData: {
       isSignupsDisabled: false,
       isEmailAuthDisabled: false,
+      isLandingPageDisabled: false,
     },
   });
 

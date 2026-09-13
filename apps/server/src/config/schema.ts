@@ -62,6 +62,10 @@ export const configSchema = z.object({
     .string()
     .default("false")
     .transform((s) => s !== "false" && s !== "0"),
+  DISABLE_LANDING_PAGE: z
+    .string()
+    .default("false")
+    .transform((s) => s !== "false" && s !== "0"),
 
   // GitHub (OAuth, Optional)
   GITHUB_CLIENT_ID: z.string().optional(),

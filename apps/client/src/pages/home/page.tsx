@@ -1,6 +1,9 @@
 import { t } from "@lingui/macro";
 import { useLingui } from "@lingui/react";
 import { Helmet } from "react-helmet-async";
+import { Navigate } from "react-router";
+
+import { useFeatureFlags } from "@/client/services/feature";
 
 import { ContributorsSection } from "./sections/contributors";
 import { FAQSection } from "./sections/faq";
@@ -14,6 +17,11 @@ import { TestimonialsSection } from "./sections/testimonials";
 
 export const HomePage = () => {
   const { i18n } = useLingui();
+  const { flags } = useFeatureFlags();
+
+  if (flags.isLandingPageDisabled) {
+    return <Navigate replace to="/auth/login" />;
+  }
 
   return (
     <main className="relative isolate bg-background">
