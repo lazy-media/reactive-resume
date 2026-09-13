@@ -10,10 +10,12 @@ export class FeatureService {
   getFeatures() {
     const isSignupsDisabled = this.configService.getOrThrow<boolean>("DISABLE_SIGNUPS");
     const isEmailAuthDisabled = this.configService.getOrThrow<boolean>("DISABLE_EMAIL_AUTH");
+    const isLandingPageDisabled = this.configService.getOrThrow<boolean>("DISABLE_LANDING_PAGE");
 
     return {
       isSignupsDisabled,
       isEmailAuthDisabled,
+      isLandingPageDisabled,
     };
   }
 }

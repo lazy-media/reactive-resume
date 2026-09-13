@@ -95,6 +95,7 @@ services:
       # -- Email (Optional) --
       # DISABLE_SIGNUPS: ${DISABLE_SIGNUPS}
       # DISABLE_EMAIL_AUTH: ${DISABLE_EMAIL_AUTH}
+      # DISABLE_LANDING_PAGE: ${DISABLE_LANDING_PAGE}
 
       # -- GitHub (Optional) --
       # GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}

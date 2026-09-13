@@ -104,6 +104,7 @@ services:
       # -- Feature Flags (Optional) --
       # DISABLE_SIGNUPS: ${DISABLE_SIGNUPS} # Set in .env file. Default is "true", set to "false" to allow signups with email
       # DISABLE_EMAIL_AUTH: ${DISABLE_EMAIL_AUTH} # Set in .env file. Default is "true", set to "false" to allow email verification upon new user signup
+      # DISABLE_LANDING_PAGE: ${DISABLE_LANDING_PAGE} # Set to "true" to skip the landing page and go straight to login
 
       # -- GitHub (Optional) --
       # GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
