@@ -1,7 +1,7 @@
 ARG NX_CLOUD_ACCESS_TOKEN
 
 # --- Base Image ---
-FROM node:lts-bullseye-slim AS base
+FROM node:lts-trixie-slim AS base
 ARG NX_CLOUD_ACCESS_TOKEN
 
 ENV PNPM_HOME="/pnpm"
